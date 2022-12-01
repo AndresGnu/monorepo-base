@@ -1,0 +1,11 @@
+{
+  "extends": "@antfu",
+  "rules": {
+    "semi": "off",
+    "@typescript-eslint/semi": [
+      "off"
+    ],
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/prefer-ts-expect-error": "off"
+  }
+}

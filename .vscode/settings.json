@@ -1,0 +1,15 @@
+{
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    // "editor.codeActionsOnSave": {
+    //     "source.fixAll.eslint": true
+    // },
+    // "files.associations": {
+    //     "*.css": "postcss"
+    // },
+    // "[typescript]": {
+    //     "editor.formatOnSave": false,
+    // },
+}

@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server",
+  "main": "server.js",
+  "scripts": {
+    "build": "unbuild",
+    "dev": "esno src/server",
+    "lint": "eslint --ext .js,.ts .",
+    "release": "bumpp --commit --push --tag && pnpm publish",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "h3": "^1.0.1",
+    "listhen":"^1.0.1",
+    "consola": "^2.15.3"
+  },
+  "devDependencies": {},
+  "author": "Andres Navarrete",
+  "license": "ISC"
+}
