@@ -1,0 +1,25 @@
+{
+  "name": "@redware/gix-schema",
+  "version": "3.0.1",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "schema"
+  ],
+  "scripts": {
+    "prepack": "unbuild",
+    "stub": "unbuild --stub"
+  },
+  "dependencies": {
+    "joi": "^17.6.0"
+  },
+  "devDependencies": {
+    "unbuild": "latest"
+  },
+  "engines": {
+    "node": "^16.11.0 || ^17.0.0 || ^18.0.0"
+  }
+}

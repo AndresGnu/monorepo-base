@@ -5,6 +5,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
+    "clean": "pnpm recursive exec -- rm -rf node_modules; rm -rf node_modules && rm ./pnpm-lock.yaml",
     "serve": "pnpm -r --filter server"
   },
   "author": "Andres Navarrete",
