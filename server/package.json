@@ -14,10 +14,10 @@
     "h3": "^1.0.1",
     "listhen":"^1.0.1",
     "consola": "^2.15.3"
-  },
-  "devDependencies": {},
-  "author": "Andres Navarrete",
-  "license": "ISC",
-  "packageManager": "npm"
 
+  },
+  "devDependencies": {    "unbuild": "^0.6.7"
+},
+  "author": "Andres Navarrete",
+  "license": "ISC"
 }
