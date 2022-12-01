@@ -50,14 +50,10 @@ importers:
 
   server:
     specifiers:
-      '@redware/gix': ~3.0.1
-      '@redware/gix-schema': ~3.0.1
       consola: ^2.15.3
       h3: ^1.0.1
       listhen: ^1.0.1
     dependencies:
-      '@redware/gix': link:../packages/gix
-      '@redware/gix-schema': link:../packages/schema
       consola: 2.15.3
       h3: 1.0.1
       listhen: 1.0.1
